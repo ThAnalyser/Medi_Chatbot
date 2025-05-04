@@ -1,2 +1,2 @@
 # Medi_Chatbot
-chatbot will give relevant information only basically file based chatbot .
+Explore medical topics with MediBot, a Streamlit web application that answers your questions using the power of Large Language Models (LLMs) and a local knowledge base. Built with Python, Langchain, Hugging Face's Mistral-7B model, and a fast FAISS index for information retrieval, MediBot provides informative responses and cites its sources. Ask your medical queries in natural language and get reliable information derived from your local medical documents. 
