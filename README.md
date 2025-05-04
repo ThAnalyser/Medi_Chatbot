@@ -1,2 +1,12 @@
-# Medi_Chatbot
-Explore medical topics with MediBot, a Streamlit web application that answers your questions using the power of Large Language Models (LLMs) and a local knowledge base. Built with Python, Langchain, Hugging Face's Mistral-7B model, and a fast FAISS index for information retrieval, MediBot provides informative responses and cites its sources. Ask your medical queries in natural language and get reliable information derived from your local medical documents. 
+README: Setting Up Your Environment with Pipenv
+Prerequisite: Install Pipenv
+Follow the official Pipenv installation guide to set up Pipenv on your system:
+Install Pipenv Documentation
+
+Steps to Set Up the Environment
+Install Required Packages
+Run the following commands in your terminal (assuming Pipenv is already installed):
+
+pipenv install langchain langchain_community langchain_huggingface faiss-cpu pypdf
+pipenv install huggingface_hub
+pipenv install streamlit
